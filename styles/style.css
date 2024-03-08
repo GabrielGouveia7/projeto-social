@@ -45,6 +45,21 @@ body{
     height: 471px;
 }
 
+
+/* Posicionamento das logos da redes sociais*/
+#redes-sociais{
+    text-align: right;
+}
+
+/* Posicionamento e arredondamento das logos*/
+#redes-sociais img{
+    width: 45px;
+    margin: 7px;
+    border-radius: 180px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+    box-sizing: border-box;
+}
+
 /* Efeitos ao passar o mouse nas logos*/
 #redes-sociais img:hover{
     border: 2px solid rgba(211, 211, 211, 0.548);
